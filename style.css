@@ -1,1 +1,56 @@
+/* General page styles */
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(232, 250, 250);
+}
+p{
+    color: rgb(240, 148, 218);
+}
+h1, h2, h3 {
+    font-family: "Edu AU VIC WA NT Guides", cursive; 
+    color:rgb(146, 150, 240);
+ }
 
+ /* Select by class name*/
+ 
+ img{
+    border: 20px solid rgba(243, 228, 245, 0.985);
+    background-color:rgb(200, 174, 196);
+}
+
+/*Properties: colors and typography */
+strong {
+    color:rgb(130, 130, 205); 
+    background-color:rgba(178, 142, 223, 0.381);
+   font-family:
+    font-weight:100;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    margin:25px;
+
+}
+
+/*Box margin, border, padding, content */
+img {
+    border-width: 2px;
+    border-style:double;
+    border-color:rgb(235, 11, 123);
+    border-radius:30%;
+
+     /* Tip how to center anything*/
+     .centered {
+        margin:auto;
+        text-align: center;
+       
+    }
+
+
+    hr{
+        border-width:5px;
+        border-sytle:Groove;
+        border-color:blueviolet;
+    }
