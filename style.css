@@ -1,56 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+
 /* General page styles */
-body{
-    font-family: "Oswald", sans-serif;
+body {
+    font-family: "Arima", system-ui;
     background-color: rgb(232, 250, 250);
 }
-p{
+
+p {
     color: rgb(240, 148, 218);
 }
+
 h1, h2, h3 {
-    font-family: "Edu AU VIC WA NT Guides", cursive; 
-    color:rgb(146, 150, 240);
- }
-
- /* Select by class name*/
- 
- img{
-    border: 20px solid rgba(243, 228, 245, 0.985);
-    background-color:rgb(200, 174, 196);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    color: rgb(143, 148, 239);
 }
 
-/*Properties: colors and typography */
+/* Select by class name */
+img {
+    border: 20px solid rgba(109, 45, 117, 0.985);
+    background-color: rgb(221, 195, 217);
+}
+
+/* Properties: colors and typography */
 strong {
-    color:rgb(130, 130, 205); 
-    background-color:rgba(178, 142, 223, 0.381);
-   font-family:
-    font-weight:100;
-    font-style: italic;
+    color: rgb(47, 205, 121);
+    background-color: rgba(181, 153, 216, 0.381);
+    font-weight: 100; /* Fixed font-weight property */
+    font-style: italic; /* Fixed font-style property */
 }
 
-h1{
+/* Heading styles */
+h1 {
     text-align: center;
     padding: 15px;
-    margin:25px;
-
+    margin: 25px;
 }
 
-/*Box margin, border, padding, content */
+/* Box margin, border, padding, content */
 img {
-    border-width: 2px;
-    border-style:double;
-    border-color:rgb(235, 11, 123);
-    border-radius:30%;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(216, 163, 210);
+    border-radius: 30%; /* This can be adjusted based on design needs */
+}
 
-     /* Tip how to center anything*/
-     .centered {
-        margin:auto;
-        text-align: center;
-       
-    }
+/* Tip how to center anything */
+.centered {
+    margin: auto;
+    text-align: center;
+}
 
-
-    hr{
-        border-width:5px;
-        border-sytle:Groove;
-        border-color:blueviolet;
-    }
+hr {
+    border-width: 5px;
+    border-style: groove; /* Fixed border-style value */
+    border-color: rgb(255, 134, 208);
+}
+ 
